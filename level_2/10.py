@@ -1,13 +1,4 @@
-from dataclasses import dataclass
-from typing import Tuple
-
-
-@dataclass(frozen=True, slots=True)
-class Point:
-    position: Tuple[int, int]
-
-
-def is_point_in_square(point: Tuple[int, int], left_upper_corner: Tuple[int, int], right_bottom_corner: Tuple[int, int]) -> bool | None:
+def is_point_in_square(point: tuple[int, int], left_upper_corner: tuple[int, int], right_bottom_corner: tuple[int, int]) -> bool | None:
     pass
 
 

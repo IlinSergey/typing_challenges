@@ -1,5 +1,3 @@
-
-
 def get_avg_currency_rate(rates_history: list[float]) -> float | None:
     pass
 

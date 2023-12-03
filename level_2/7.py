@@ -1,8 +1,5 @@
 
-from typing import Tuple
-
-
-def calculate_total_spent_for_user(user: Tuple[str, int, list[int]]) -> int | None:
+def calculate_total_spent_for_user(user: tuple[str, int, list[int]]) -> int | None:
     pass
 
 

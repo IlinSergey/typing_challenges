@@ -1,16 +1,7 @@
-from dataclasses import dataclass
 import datetime
-from typing import List, Tuple
 
 
-@dataclass(frozen=True, slots=True)
-class Receipt_data:
-    namber: int
-    date: datetime.date
-    items: List[Tuple[str, int, float]]
-
-
-def parse_receipt(raw_receipt: str) -> Receipt_data | None:
+def parse_receipt(raw_receipt: str) -> tuple[int, datetime.date, list[tuple[str, int, float]]] | None:
     pass
 
 

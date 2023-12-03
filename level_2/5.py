@@ -1,7 +1,4 @@
-from typing import Tuple
-
-
-def get_current_user() -> Tuple[str, int, str] | None:
+def get_current_user() -> tuple[str, int, str] | None:
     pass
 
 
