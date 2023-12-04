@@ -1,7 +1,7 @@
 from typing import Any, Callable
 
 
-def create_user(user_name: str, user_age: int, after_created: Callable) -> None:
+def create_user(user_name: str, user_age: int, after_created: Callable) -> Any:  # Any убрать ошибку [func-returns-value]
     pass
 
 
