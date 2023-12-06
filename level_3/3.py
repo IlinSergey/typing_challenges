@@ -1,7 +1,7 @@
-from typing import Any, Callable
+from typing import Callable
 
 
-def create_user(user_name: str, user_age: int, after_created: Callable[[int], None]) -> Any:
+def create_user(user_name: str, user_age: int, after_created: Callable[[int], None]):  # type: ignore [no-untyped-def]
     pass
 
 
